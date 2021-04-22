@@ -478,12 +478,15 @@ mark,
 }
 
 .img-thumbnail {
-  padding: 0.25rem;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
-  max-width: 100%;
-  height: auto;
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 100px solid #dee2e6;
+    border-radius: 400px;
+    max-width: 100%;
+    height: auto;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
 }
 
 .figure {
@@ -574,11 +577,18 @@ pre code {
 }
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+    width: 100%;
+    padding-right: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: right;
+    clear: left;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    background-repeat: repeat-y;
+    text-align: left;
 }
 
 @media (min-width: 576px) {
