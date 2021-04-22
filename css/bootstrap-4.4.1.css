@@ -578,17 +578,19 @@ pre code {
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
     width: 100%;
-    padding-right: 100px;
+    padding-right: auto;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: auto;
     float: right;
     clear: left;
-    border-top-right-radius: 100px;
-    border-top-left-radius: 100px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
     background-repeat: repeat-y;
     text-align: left;
+    margin-top: 0px;
+    padding-bottom: auto;
+    padding-left: auto;
 }
 
 @media (min-width: 576px) {
